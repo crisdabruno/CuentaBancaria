@@ -13,7 +13,7 @@ public class Cuenta {
 	
 		if (aDepositar>0){
 			this.saldo=this.saldo+ aDepositar;
-			return ;
+			return true;
 		}
 		else{
 			return false;
